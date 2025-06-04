@@ -1,7 +1,10 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const heading = document.querySelector("h1");
+// script.js
 
-    heading.addEventListener("click", function() {
-        alert("✨ You're glowing! Welcome to your first website! ✨");
+document.addEventListener("DOMContentLoaded", () => {
+    const orderButtons = document.querySelectorAll(".order-btn");
+    orderButtons.forEach(button => {
+      button.addEventListener("click", () => {
+        alert("Thank you for your order! 🌸 Your coffee is being prepared.");
+      });
     });
-});
+  });
