@@ -80,7 +80,7 @@ style.css
   .order-btn:hover {
     background: #cf711f;
   }
-  
+ 
   .hero-img img {
     width: 300px;
     border-radius: 20px;
@@ -96,7 +96,7 @@ style.css
   .menu h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #e67e22;
+    color: #c67c3b;
   }
   
   .coffee-options {
@@ -105,7 +105,7 @@ style.css
     justify-content: center;
     gap: 2rem;
   }
-  
+   
   .coffee-card {
     background: white;
     border-radius: 15px;
